@@ -184,6 +184,11 @@ public class DoublyLinkedList
     }
 
     // Strategy
+    
+    public static abstract class ContentStrategy
+    {
+    	public abstract Object handle( Object ref );
+    }
 
     public static abstract class TraversingStrategy
     {
